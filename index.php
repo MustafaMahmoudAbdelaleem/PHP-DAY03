@@ -1,19 +1,19 @@
 <?php
-    if(isset($_POST['submit'])){
-        if(empty($_POST['name'])){
-            $nameErrMsg = "name is required";
+    if(isset($_POST['Submit'])){
+        if(empty($_POST['Name'])){
+            $nameErrMsg = "Name is required";
         }else{
-            $name = $_POST['name'];
+            $name = $_POST['Name'];
         }
-        if(empty($_POST['email'])){
-            $mailErrMsg="email is required";
+        if(empty($_POST['Email'])){
+            $mailErrMsg="Email is required";
         }else{
-            $email = $_POST['email'];
+            $email = $_POST['Email'];
         }
-        if(empty($_POST['gender'])){
+        if(empty($_POST['Gender'])){
            $genderErrMsg="please select your gender";
         }else{
-            $gender = $_POST['gender'];
+            $gender = $_POST['Gender'];
         }
         if(empty($_POST['terms'])){
             $termsErrMsg="you must agree to terms";
@@ -36,7 +36,7 @@
     <head>
         <style>
             .error{
-                color: red;
+                color: blue;
             }
         </style>
     </head>
