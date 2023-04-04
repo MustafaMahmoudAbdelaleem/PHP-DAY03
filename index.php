@@ -1,19 +1,19 @@
 <?php
-    if(isset($_POST['Submit'])){
-        if(empty($_POST['Name'])){
-            $nameErrMsg = "Name is required";
+    if(isset($_POST['submit'])){
+        if(empty($_POST['name'])){
+            $nameErrMsg = "name is required";
         }else{
-            $name = $_POST['Name'];
+            $name = $_POST['name'];
         }
-        if(empty($_POST['Email'])){
-            $mailErrMsg="Email is required";
+        if(empty($_POST['email'])){
+            $mailErrMsg="email is required";
         }else{
-            $email = $_POST['Email'];
+            $email = $_POST['email'];
         }
-        if(empty($_POST['Gender'])){
+        if(empty($_POST['gender'])){
            $genderErrMsg="please select your gender";
         }else{
-            $gender = $_POST['Gender'];
+            $gender = $_POST['gender'];
         }
         if(empty($_POST['terms'])){
             $termsErrMsg="you must agree to terms";
