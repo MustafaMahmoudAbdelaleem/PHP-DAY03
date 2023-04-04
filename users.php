@@ -1,3 +1,5 @@
+Task 02-Day 03 PHP "Names in a table"
+
 <?php
 
 $students = [
@@ -15,12 +17,12 @@ $students = [
     <head>
         <style>
             .cms{
-                color: red;
+                color: blue;
             }
         </style>
     </head>
     <body>
-        <table border="1">
+        <table border="0.75">
             <tr>
                 <th>Name</th>
                 <th>Email</th>
