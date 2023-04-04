@@ -1,3 +1,5 @@
+Day 03-Task01 PHP " AAST Form"
+
 <?php
     if(isset($_POST['submit'])){
         if(empty($_POST['name'])){
@@ -41,7 +43,7 @@
         </style>
     </head>
     <body>
-        <h2>Application Name : AAST_BIS Class Registration</h2>
+        <h2>Application Name : AAST_BIS Class Registration Form</h2>
         <p><span class="error">*Required field.</span></p>
         <form action="<?php $_PHP_SELF ?>" method="post">
             <label for="name">Name:</label>
